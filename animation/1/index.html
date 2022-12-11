@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amimation1</title>
+    <script src="run.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <center>
+        <div>
+            <canvas id="mycanvas" height="500px" width="500px" style="border:5px; border-style:solid; border-color:black;"></canvas>
+        </div>
+    <input class="btn" type="button"  value="Draw Circle" onclick="drawcircle()">
+    <input class="btn" type="button"  value="Draw Rectangle" onclick="drawrectangle()">
+    <input class="inp" type="text"  id="radius" placeholder="radius">
+    <input class="inp" type="text"  id="length" placeholder="length">
+    <input class="inp" type="text"  id="breadth" placeholder="breadth">
+    <p>If you want to draw a circle,enter the radius and then click on draw circle.Now you can click anywhere on the canvas.</p>
+    </center>
+</body>
+</html>

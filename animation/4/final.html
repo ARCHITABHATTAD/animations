@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stimulation</title>
+    <script src="mainfile.js"></script>
+    <script src="run.js" defer></script>
+
+</head>
+
+<body>
+
+    <canvas id="mycanvas" width="1000" height="700" style="border-style: double;border-color:blueviolet;"></canvas>
+
+    <!-- <input style="position:absolute;left:30px;top:70px;" id="t2" type="range" value="25" min="1" max="100" step="1" aria-orientation="vertical" > -->
+
+    <!-- <input style="position:absolute;left:30px;top:320px;" id="t1" type="range" value="15" min="1" max="100" step="1" aria-orientation="vertical"> -->
+
+    <input style="position:absolute;left:30px;top:70px" id="t2" type="range" value="36" min="2" max="150" step="2"  oninput="Animate2();" onchange="Animate2();">
+
+    <input style="position:absolute;left:30px;top:320px" id="t1" type="range" value="25" min="2" max="150" step="2" orient="vertical" oninput="Animate1();" onchange="Animate1();">
+
+</body>
+
+</html>
